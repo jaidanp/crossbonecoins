@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 
 contract CrossBoneCoin is ERC1155, Ownable, Pausable, ERC1155Supply {
     uint256 public publicPrice = 0.01 ether; 
-    uint256 public maxSupply = 1;
+    uint256 public maxSupply = 1000000000;
 
     constructor()
         ERC1155("ipfs://Qmaa6TuP2s9pSKczHF4rwWhTKUdygrrDs8RmYYqCjP3Hye/")
